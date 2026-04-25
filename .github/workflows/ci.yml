@@ -23,7 +23,7 @@ jobs:
 
       - name: Run migrations
         run: |
-          python myproject/manage.py migrate
+          python manage.py migrate
 
       - name: Run tests
         run: |
